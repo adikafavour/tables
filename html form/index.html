@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>HTML FORM CREATION</h1>  
+<form method="post">
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <label for="name">NAME:</label>
+        <input required type="name"><br><br>
+
+        <label for="password" >PASSWORD:</label>
+        <input required type="password" id="password" type="name"><br><br>
+
+        <label for="email">EMAIL:</label>
+        <input required type="email" id="email" type="name"><br><br>
+
+        <label for="number">NUMBER:</label>
+        <input required type="number" id="number" type="name"><br><br>
+
+        <label for="telephone">TELEPHONE:</label>
+        <input required type="telephone" id="telephone" type="name"><br><br>
+
+        <label for="url">(optional) WEBSITE:</label>
+        <input type="url" id="url" type="name"><br><br>
+
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>DATE & TIME</legend>
+        <label for="date">DATE:</label>
+        <input required type="date" id="date" type="name"><br><br>
+
+        <label for="datetime">DATETIME LOCAL</label>
+        <input type="datetime-local" id="datetime" name="datetime" ><br><br>
+
+        <label for="month">MONTH:</label>
+        <input type="month" id="month" name="month"><br><br>
+
+        <label for="week">WEEK:</label>
+        <input type="week" id="week" name="week"><br><br>
+
+        <label for="time">TIME:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>CHOICES</legend>
+        <p> GENDER</p>
+        <label for="male">MALE</label>
+        <input type="radio" id="male" name="gender" value="male">
+        
+        <label for="female">FEMALE</label>
+        <input type="radio" id="female" name="gender" value="female"><br><br>
+
+        <p>SKILLS (optional)</p>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+
+        <label for="javascript">JAVASCRIPT</label>
+        <input type="checkbox" id="javascript" name="skills" value="javascript"><br><br>
+
+        <label for="color">FAVOURITE COLOUR</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="range" >SKILL LEVEL (0-100):</label>
+        <input required type="range" id="range"><br><br>
+
+        <label for="select">SELECT COUNTR:Y</label>
+        <select>
+            <option value="">PICK</option>
+            <option value="usa">USA</option>
+            <option value="canada">CANADA</option>
+            <option value="china">CHINA</option>
+            <option value="japan">JAPAN</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>UPLOADS & MISC</legend>
+        <label for="file"> UPLOAD FILE</label>
+        <input type="search" name="file" id="search"><br><br>
+
+        <label for="hidden">HIDDEN:</label>
+        <input type="hidden" id="hidden" name="hidden"><br><br>
+
+        <label for="textarea">TEXT AREA:</label><br>
+        <textarea id="textarea" name="message" rows="6" cols="30"></textarea><br><br>
+    </fieldset>
+
+    <button>submit</button>
+</form>
+</body>
+</html>
