@@ -1,0 +1,54 @@
+h1,h2,p{
+    color:black;
+}
+a:hover{
+    color: orangered;
+    padding: 10px;
+    border: none;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+h1{
+    margin-bottom: 3px;
+}
+table{
+    border-spacing: 20px;
+    margin-top: 0;
+}
+h2{
+    margin: 0;
+}
+li{
+    color:black;
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-size:xx-large;
+}
+ul li:nth-child(1):hover{
+transition: 0.3s; 
+  color: yellow;
+}
+ul li:nth-child(2):hover{
+    transition: 0.3s;
+    color: yellow;
+}
+ul li:nth-child(3):hover{
+    transition: 0.3s;
+    color: yellow;
+}
+ul li:nth-child(4):hover{
+    transition: 0.3s;
+    color: yellow;
+}
+span {
+  color:black;    
+  font-size: xx-large;
+}
+.div{
+    font-size: medium;
+}  
+    

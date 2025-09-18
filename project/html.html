@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sign In & Sign Up</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color:white;
+            font-family: sans-serif;
+            
+            
+        }
+        .container {
+            display: flex;
+            width: 800px;
+            height: 500px;
+            overflow: visible;
+            box-sizing: border-box;
+        }
+        .sign-in-section {
+            flex: 1;
+            background-color:pink;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            box-shadow: -20px 30px 80px rgba(8, 8, 8, 0.993);
+            border-radius: 7px;
+        
+        }
+
+        .sign-up-section {
+            flex: 1;
+            background-color: #49c4cf;
+            padding: 60px 40px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: 60px 30px 80px rgba(0,0,0,0.3) ;
+            border-radius: 7px;
+        }
+        .section-title {
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 500;
+        }
+        h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+        .social-icons {
+            margin: 20px 0;
+        }
+        .social-icons a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            margin: 0 5px;
+            color: #555;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            background-color: #333;
+            color: #fff;
+            border-color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 300px;
+            margin-top: 20px;
+        }
+        
+        input[type="email"],input[type="password"] {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            outline: none;
+        }
+        .forgot-password {
+            text-align:center;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            text-decoration: none;
+        }
+        .forgot-password a {
+            color: #666;
+            
+        }
+        .sign-in-button,.sign-up-button {
+            padding: 12px 45px;
+            border-radius: 25px;
+            border: none;
+            cursor: none;
+            font-weight: 600;
+        }
+        .input:focus {
+            outline:none;
+            border: 5px solid rgb(59, 105, 233);
+        
+
+        }
+        
+    
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sign-in-section">
+            <h2 class="section-title">Sign In</h2>
+            <div class="social-icons">
+                <a href="#" class="social-icons"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="social-icons"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="social-icons"><i class='bx bxl-google'></i></a>
+            </div>
+            
+            <form>
+                <input type="email" placeholder="User Email" class="input" required>
+                <input type="password" placeholder="Password" class="input" required>
+                <a href="#" class="forgot-password">Forgot your password</a>
+                <button type="submit" class="sign-in-button">Sign In</button>
+            </form>
+        </div>
+        <div class="sign-up-section">
+            <h2 class="section-title">Sign Up</h2>
+       <p>Sign up here if you have a new account</p>
+       <button class="sign-up-button">Sign Up</button>
+
+        </div>
+    </div>
+    
+</body>
+</html>
